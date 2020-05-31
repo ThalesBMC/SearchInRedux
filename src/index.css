@@ -14,3 +14,18 @@ code {
 input::placeholder {
   text-align: center;
 }
+.luz {
+  -webkit-filter: brightness(100%);
+}
+
+.teste:hover {
+  -webkit-filter: brightness(70%);
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(50, 129, 167, 1) 60%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
